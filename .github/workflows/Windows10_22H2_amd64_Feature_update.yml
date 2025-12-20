@@ -1,14 +1,14 @@
-name: Windows10_22H2_amd64
+name: Windows10_22H2_amd64_Feature_update
 
-on: workflow_dispatch
-#on: [push, pull_request]
+#on: workflow_dispatch
+on: [push, pull_request]
 
 env:
   Build_VERSION: '19045.6693'
-  FILE_NAME: Windows10_22H2_amd64
+  FILE_NAME: Windows10_22H2_amd64_Feature_update
 
 jobs:
-  Windows10_22H2_amd64:
+  Windows10_22H2_amd64_Feature_update:
     runs-on: windows-latest
 
     steps:
